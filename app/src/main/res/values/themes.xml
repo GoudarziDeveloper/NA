@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NA" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/light_splash</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="NA">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>

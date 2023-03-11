@@ -1,0 +1,89 @@
+package com.tinyDeveloper.na.domain.use_cases
+
+import com.tinyDeveloper.na.domain.use_cases.baseInfo.get_base_info.GetBaseInfoUseCase
+import com.tinyDeveloper.na.domain.use_cases.baseInfo.update_use_case.UpdateBaseInfo
+import com.tinyDeveloper.na.domain.use_cases.bases.add_base.AddBaseUseCase
+import com.tinyDeveloper.na.domain.use_cases.bases.delete_base.DeleteBaseUseCase
+import com.tinyDeveloper.na.domain.use_cases.bases.get_all_bases.GetAllBasesUseCase
+import com.tinyDeveloper.na.domain.use_cases.bases.get_base.GetBasesUseCase
+import com.tinyDeveloper.na.domain.use_cases.bases.update_base.UpdateBaseUseCase
+import com.tinyDeveloper.na.domain.use_cases.data_store.GetInfoUseCase
+import com.tinyDeveloper.na.domain.use_cases.data_store.SetInfoUseCase
+import com.tinyDeveloper.na.domain.use_cases.files.add_file.AddFileUseCase
+import com.tinyDeveloper.na.domain.use_cases.files.delete_file.DeleteFileUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.add.AddJobUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.delete.DeleteJobUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.get.GetJobUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.get_all.GetAllJobsUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.get_all_active_jobs.GetAllActiveJobsUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.get_all_not_worked_jobs.GetAllNotWorkedJobsUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.get_all_user_jobs.GetAllUserJobsUseCase
+import com.tinyDeveloper.na.domain.use_cases.jobs.update.UpdateJobUseCase
+import com.tinyDeveloper.na.domain.use_cases.notifications.add_notification_use_case.AddNotification
+import com.tinyDeveloper.na.domain.use_cases.notifications.common.get_all_notiifcations.GetAllCommonNotifications
+import com.tinyDeveloper.na.domain.use_cases.notifications.common.get_notifications.GetCommonNotifications
+import com.tinyDeveloper.na.domain.use_cases.notifications.delete_notification_use_case.DeleteNotification
+import com.tinyDeveloper.na.domain.use_cases.notifications.get_notification_use_case.GetNotification
+import com.tinyDeveloper.na.domain.use_cases.notifications.personal.get_all_notifications.GetAllPrivateNotifications
+import com.tinyDeveloper.na.domain.use_cases.notifications.personal.get_notifications.GetPrivateNotifications
+import com.tinyDeveloper.na.domain.use_cases.notifications.update_notifcation_use_case.UpdateNotification
+import com.tinyDeveloper.na.domain.use_cases.submissions.add_submission.AddSubmissionUseCase
+import com.tinyDeveloper.na.domain.use_cases.submissions.get_all.GetAllSubmissionsUseCase
+import com.tinyDeveloper.na.domain.use_cases.submissions.get_submission.GetSubmissionUseCase
+import com.tinyDeveloper.na.domain.use_cases.submissions.get_user_submission.GetUserSubmissionUseCase
+import com.tinyDeveloper.na.domain.use_cases.submissions.update_submission.UpdateSubmissionUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.add_user.AddUserUserCase
+import com.tinyDeveloper.na.domain.use_cases.users.check_code.CheckCodeUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.delete_user.DeleteUserUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.get_all_users.GetAllUsersUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.get_profile.GetProfileUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.get_user.GetUserUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.get_user_role.GetUserRoleUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.login.LoginUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.update_profile.UpdateProfileUseCase
+import com.tinyDeveloper.na.domain.use_cases.users.update_user.UpdateUserUseCase
+
+class UseCases(
+    val loginUsersUseCase: LoginUseCase,
+    val checkCodeUseCase: CheckCodeUseCase,
+    val getBaseInfoUseCase: GetBaseInfoUseCase,
+    val setInfoUseCase: SetInfoUseCase,
+    val getInfoUseCase: GetInfoUseCase,
+    val getUserRoleUseCase: GetUserRoleUseCase,
+    val getCommonNotifications: GetCommonNotifications,
+    val getAllCommonNotifications: GetAllCommonNotifications,
+    val getPrivateNotifications: GetPrivateNotifications,
+    val getAllPrivateNotifications: GetAllPrivateNotifications,
+    val addNotification: AddNotification,
+    val getNotification: GetNotification,
+    val updateNotification: UpdateNotification,
+    val deleteNotification: DeleteNotification,
+    val getProfile: GetProfileUseCase,
+    val updateProfileUseCase: UpdateProfileUseCase,
+    val getAllUsersUseCase: GetAllUsersUseCase,
+    val deleteUserUseCase: DeleteUserUseCase,
+    val addUserUserCase: AddUserUserCase,
+    val getUserUseCase: GetUserUseCase,
+    val updateUserUseCase: UpdateUserUseCase,
+    val getAllJobsUseCase: GetAllJobsUseCase,
+    val getJobUseCase: GetJobUseCase,
+    val addJobUseCase: AddJobUseCase,
+    val addFileUseCase: AddFileUseCase,
+    val updateJobUseCase: UpdateJobUseCase,
+    val deleteFileUseCase: DeleteFileUseCase,
+    val deleteJobUseCase: DeleteJobUseCase,
+    val getAllSubmissionsUseCase: GetAllSubmissionsUseCase,
+    val addSubmissionUseCase: AddSubmissionUseCase,
+    val updateSubmissionUseCase: UpdateSubmissionUseCase,
+    val getUserSubmissionUseCase: GetUserSubmissionUseCase,
+    val getSubmissionUseCase: GetSubmissionUseCase,
+    val updateBaseInfo: UpdateBaseInfo,
+    val addBaseUseCase: AddBaseUseCase,
+    val updateBaseUseCase: UpdateBaseUseCase,
+    val deleteBaseUseCase: DeleteBaseUseCase,
+    val getBaseUseCase: GetBasesUseCase,
+    val getAllBasesUseCase: GetAllBasesUseCase,
+    val getAllActiveJobsUseCase: GetAllActiveJobsUseCase,
+    val getAllNotWorkedJobsUseCase: GetAllNotWorkedJobsUseCase,
+    val getAllUserJobsUseCase: GetAllUserJobsUseCase
+)

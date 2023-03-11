@@ -1,0 +1,33 @@
+package com.tinyDeveloper.na.domain.models.response.common
+
+data class Role(
+    val addBase: String,
+    val addFile: String,
+    val addJob: String,
+    val addNotification: String,
+    val addSubmission: String,
+    val addUser: String,
+    val deleteBase: String,
+    val deleteFile: String,
+    val deleteJob: String,
+    val deleteNotification: String,
+    val deleteSubmission: String,
+    val deleteUser: String,
+    val editBaseInfo: String,
+    val getBaseInfo: String,
+    val getBases: String,
+    val getFile: String,
+    val getJob: String,
+    val getNotifications: String,
+    val getSubmissions: String,
+    val getUser: String,
+    val getUsers: String,
+    val id: String,
+    val updateBase: String,
+    val updateJob: String,
+    val updateNotification: String,
+    val updateSubmission: String,
+    val updateUser: String,
+    val updateUsers: String,
+    val userId: String
+)

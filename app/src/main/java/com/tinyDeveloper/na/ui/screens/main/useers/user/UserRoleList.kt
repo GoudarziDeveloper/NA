@@ -1,0 +1,31 @@
+package com.tinyDeveloper.na.ui.screens.main.useers.user
+
+data class UserRoleList(
+    val addUser             : UserRoleState     = UserRoleState(checked = false, title = "افزودن کاربر"),
+    val deleteUser          : UserRoleState     = UserRoleState(checked = false, title = "پاک کردن کاربر"),
+    val updateUser          : UserRoleState     = UserRoleState(checked = true, title = "بروزرسانی کاربر"),
+    val updateUsers         : UserRoleState     = UserRoleState(checked = false, title = "بروزرسانی کاربران"),
+    val getUser             : UserRoleState     = UserRoleState(checked = true, title = "دیدن پروفایل"),
+    val getUsers            : UserRoleState     = UserRoleState(checked = true, title = "دریافت کاربران"),
+    val getNotifications    : UserRoleState     = UserRoleState(checked = true, title = "دریافت اعلانات"),
+    val addNotification     : UserRoleState     = UserRoleState(checked = false, title = "افزودن اعلان"),
+    val deleteNotification  : UserRoleState     = UserRoleState(checked = false, title = "پاک کردن اعلان"),
+    val updateNotification  : UserRoleState     = UserRoleState(checked = false, title = "بروزرسانی اعلان"),
+    val addJob              : UserRoleState     = UserRoleState(checked = false, title = "افزودن کارخواسته"),
+    val deleteJob           : UserRoleState     = UserRoleState(checked = false, title = "پاک کردن کارخواسته"),
+    val updateJob           : UserRoleState     = UserRoleState(checked = false, title = "بروز رسانی کارخواسته"),
+    val getJob              : UserRoleState     = UserRoleState(checked = true, title = "دیدن کارخواسته"),
+    val getFile             : UserRoleState     = UserRoleState(checked = true, title = "دریافت فایل"),
+    val addFile             : UserRoleState     = UserRoleState(checked = false, title = "افزودن فایل"),
+    val deleteFile          : UserRoleState     = UserRoleState(checked = false, title = "پاک کردن فایل"),
+    val addBase             : UserRoleState     = UserRoleState(checked = false, title = "افزودن پایگاه"),
+    val deleteBase          : UserRoleState     = UserRoleState(checked = false, title = "پاک کردن پایگاه"),
+    val getBases            : UserRoleState     = UserRoleState(checked = false, title = "دریافت پایگاه ها"),
+    val updateBase          : UserRoleState     = UserRoleState(checked = false, title = "بروز رسانی پایگاه ها"),
+    val addSubmission       : UserRoleState     = UserRoleState(checked = true, title = "افزودن پاسخ کارخواسته"),
+    val deleteSubmission    : UserRoleState     = UserRoleState(checked = true, title = "پاک کردن پاسخ کارخواسته"),
+    val updateSubmission    : UserRoleState     = UserRoleState(checked = true, title = "بروز رسانی پاسخ کارخواسته"),
+    val getSubmissions      : UserRoleState     = UserRoleState(checked = false, title = "دریافت پاسخ های کارخواسته"),
+    val getBaseInfo         : UserRoleState     = UserRoleState(checked = false, title = "دریافت اطلاعات اولیه"),
+    val editBaseInfo        : UserRoleState     = UserRoleState(checked = false, title = "بروز رسانی اطلاعات اولیه")
+)

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">ارنا</string>
+    <string name="alert_yes">باشه</string>
+    <string name="alert_no">نه</string>
+
+    <string name="stream_compose_mention" translatable="false">\@%1$s</string>
+    <string name="stream_compose_yesterday">دیروز</string>
+    <string name="stream_compose_ok">بله</string>
+    <string name="stream_compose_cancel">خیر</string>
+
+    <!-- User Status (Used in Channel Actions Dialog and Message List Header) -->
+    <string name="stream_compose_user_status_online">برخط</string>
+    <string name="stream_compose_user_status_last_seen">اخرین بازدید %1$s</string>
+    <string name="stream_compose_user_status_last_seen_just_now">اخرین بازدید به تازگی</string>
+
+    <!-- Message Preview (User in Mention List and Search Result List) -->
+    <string name="stream_compose_message_preview_sender">&lt;b&gt;%1$s&lt;/b&gt; in &lt;b&gt;%2$s&lt;/b&gt;</string>
+    <string name="stream_compose_mention_list_empty">هنوز پاسخی ثبت نشده…</string>
+    <string name="stream_compose_mention_list_error">خطایی رخ داده است</string>
+    <string name="stream_compose_message_list_empty">پیامی وجود ندارد</string>
+    <string name="stream_compose_message_composer_error_sending_links_not_allowed">لینک ارسال در دسترس نیست</string>
+
+    <string name="stream_ui_message_list_download_started">درحال بارگیری…</string>
+    <string name="stream_compose_cannot_send_messages_label">درحال دریافت پیام ها…</string>
+    <string name="stream_compose_message_label">چیزی بنویسید…</string>
+    <string name="stream_compose_cd_send_button">ارسال پیام</string>
+    <string name="stream_compose_send_message">ارسال پیام</string>
+    <string name="stream_compose_message_composer_show_in_channel">همچنین در گروه فرستاده شود</string>
+    <string name="stream_compose_attachments">پیوست ها</string>
+    <string name="stream_compose_message_list_empty_messages">هیچ پیامی وجود ندارد</string>
+    <string name="stream_compose_message_list_you">شما</string>
+    <string name="stream_compose_cd_message_item">خودی</string>
+    <string name="stream_compose_delete_message_title">پاک کردن پیام</string>
+    <string name="stream_compose_delete_message_text">ایا مطمئن هستید میخواهید این پیام را پاک کنید؟ پیام برای همه پاک میشود.</string>
+    <string name="stream_compose_flag_message_title">پرچم گذاری</string>
+    <string name="stream_compose_flag_message_text">این پیام پرچم گذاری شود؟</string>
+    <string name="stream_compose_pinned_to_channel_by">برجسته شده</string>
+    <string name="stream_compose_message_list_thread_footnote">پاسخ به پیام</string>
+    <string name="stream_compose_resend_message">ارسال مجدد</string>
+    <string name="stream_compose_reply">پاسخ به پیام</string>
+    <string name="stream_compose_thread_reply">پاسخ به پیام در رشته جدید</string>
+    <string name="stream_compose_copy_message">کپی پیام</string>
+    <string name="stream_compose_edit_message">ویرایش پیام</string>
+    <string name="stream_compose_flag_message">پرچم گذاری پیام</string>
+    <string name="stream_compose_unpin_message">لغو برجسته سازی پیام</string>
+    <string name="stream_compose_pin_message">برجسته سازی پیام</string>
+    <string name="stream_compose_delete_message">پاک کردن پیام</string>
+    <string name="stream_compose_also_sent_to_channel">در گروه هم فرستاده شده است</string>
+    <string name="stream_compose_replied_to_thread">در رشته جدید هم فرستاده شده است</string>
+
+    <!-- Message List Item -->
+    <string name="stream_compose_message_list_giphy_title">گیف</string>
+    <string name="stream_compose_message_list_giphy_send">ارسال</string>
+    <string name="stream_compose_message_list_giphy_cancel">لغو</string>
+    <string name="stream_compose_message_list_giphy_shuffle">ادغام</string>
+    <string name="stream_compose_ephemeral_message">تنها شما میبینید</string>
+    <string name="stream_compose_message_list_deleted_message">پیام پاک شده است</string>
+    <string name="stream_compose_message_list_attachment_more_count">+%1$d</string>
+    <string name="stream_compose_message_list_attachment_uploading">درحال اپلود %1$d / %2$d …</string>
+    <string name="stream_compose_message_list_attachment_upload_complete">اپلود شد, درحال پردازش…</string>
+    <string name="stream_compose_message_list_attachment_upload_progress">%1$s / %2$s</string>
+    <string name="stream_compose_message_list_pinned_message">برجسته شده توسط %s</string>
+    <string name="stream_compose_message_list_pinned_message_you">شما</string>
+    <plurals name="stream_compose_message_list_thread_reply">
+        <item quantity="one">پاسخ پیام</item>
+        <item quantity="other">%d پاسخ ها</item>
+    </plurals>
+    <plurals name="stream_compose_message_list_thread_separator">
+        <item quantity="one">%d پاسخ داده شده</item>
+        <item quantity="other">%d پاسخ های دیگر</item>
+    </plurals>
+
+    <!-- Message Actions Dialog -->
+    <string name="stream_list_mute_user">بی صدا کردن</string>
+    <string name="stream_list_unmute_user">صدا دار کردن</string>
+    <string name="stream_compose_block_user">مسدود کردن کاربر</string>
+    <plurals name="stream_compose_message_reactions">
+        <item quantity="one">%d واکنش به پیام</item>
+        <item quantity="other">%d تعداد واکنش ها</item>
+    </plurals>
+</resources>
