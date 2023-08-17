@@ -76,7 +76,7 @@ Sections of a set help to separate notifications and tasks.
 
 ### Light
 
-|Main Screen|Main Screen|Notification Screen|
+|Main Screen|Chat Screen|Notification Screen|
 | :---------------------: | :-----------------: | :-------------------: |
 |  ![photo_2023-08-17_07-36-21](https://github.com/GoudarziDeveloper/NA/assets/81271344/ee0be4dc-1c61-43de-a51d-69c56d9c3e05)   |       ![photo_2023-08-17_07-36-22](https://github.com/GoudarziDeveloper/NA/assets/81271344/6067005a-bad1-4886-a237-f1e51a6a9aaa)       |     ![photo_2023-08-17_07-36-24](https://github.com/GoudarziDeveloper/NA/assets/81271344/60a5e096-43ea-4e1e-99d1-dfed31e8718f)    |
 
