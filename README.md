@@ -7,7 +7,7 @@ Retrofit and Degerhilt are the main libraries used.
 This is a single-module program and 28 composable screen and 2 Activities are used to make the development of the driver easier.
 
 ## Why?
-ERNA helps organizations, companies, stores and any group that consists of several employees and different departments so that employees can easily communicate with each other and organize their work, as well as deliver their assignments well and on time.
+Erena helps organizations, companies, stores and any group that consists of several employees and different departments so that employees can easily communicate with each other and organize their work, as well as deliver their assignments well and on time.
 Notifications can be set to send to everyone or a specific segment.
 Assignments are assignments that the manager specifies and people deliver them in text or file types.
 Users with different access levels have a different appearance of the program, simply put, they don't see the parts they don't have access to.
