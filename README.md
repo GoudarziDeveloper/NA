@@ -68,7 +68,7 @@ Sections of a set help to separate notifications and tasks.
   ViewModel, Coroutines, Hilt, Navigation
   
 
-### multi-module apps
+### single-module apps
   Hilt in single-module apps
 
 
